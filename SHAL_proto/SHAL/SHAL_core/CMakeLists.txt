@@ -1,0 +1,1 @@
+add_executable(SHAL_core "SHAL_core.cpp" "SHAL_core.h")
