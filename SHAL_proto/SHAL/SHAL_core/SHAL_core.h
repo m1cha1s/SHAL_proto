@@ -9,7 +9,7 @@ public:
 	SHAL_core(SHAL_mmu* mmu);
 	~SHAL_core();
 
-
+	void executeOp();
 
 private:
 	int _Ai, _Bi;
@@ -28,6 +28,11 @@ SHAL_core::SHAL_core(SHAL_mmu* mmu)
 SHAL_core::~SHAL_core()
 {
 	delete _mmu;
+}
+
+inline void SHAL_core::executeOp()
+{
+
 }
 
 #endif // !SHAL_CORE
